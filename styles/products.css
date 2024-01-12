@@ -1,0 +1,131 @@
+.products {
+  padding-bottom: 40px;
+}
+
+.products__label {
+  margin: 0 auto 20px;
+}
+
+.products__label-wrap {
+  max-width: 190px;
+  width: 100%;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+.products__label-title {
+  color: #2e2e3c;
+  font-size: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+.products__label-link {
+  color: #fff;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 22px;
+  line-height: 18px;
+  border-radius: 4px;
+  background: #9a98ea;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.products__content {
+  background: #fff;
+  margin-bottom: 31px;
+}
+
+.products__content__wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px 20px;
+  align-items: center;
+}
+
+.products__content-desc {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.products__content-desc-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 26px;
+}
+
+.products__content-desc-label-title {
+  color: #000;
+  font-size: 23px;
+}
+
+.products__content-desc-label-price {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+}
+
+.products__content-desc-text {
+  color: #6a6a6a;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 22px;
+}
+
+.products__content-desc-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.products__content-desc-links-link {
+  padding: 12px;
+  color: #050505;
+  font-size: 22px;
+  border-radius: 3px;
+  background: #dfc900;
+  font-family: "Roboto-Bold", sans-serif;
+  transition: 0.3s;
+  max-width: 255px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.products__content-desc-links-link:hover {
+  background: #050505;
+  color: #ffe600;
+}
+
+.products__content-imgs {
+  max-width: 705px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products__content-imgs-img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1285px) {
+  .products__content__wrap {
+    flex-direction: column;
+  }
+
+  .products__content {
+    padding: 20px 0;
+  }
+}
